@@ -17,10 +17,15 @@ pip install greedy
 ## usage
 
 Application: Create Market neutral portfolio
+
 -> Pick stocks from a list of assets
+
 -> want to pick 5 long and 5 short positions
+
 -> want minimal variance -> similar to constraint
+
 -> minimizing variance with a QUBO is straightforward
+
 -> Use covariance matrix as Q
 
 The functions construct the QUBO matrix including the constraints for total budget (constraint 1: Q_c1) and long and short positions (constraint 2: Q_c2).
